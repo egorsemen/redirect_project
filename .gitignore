@@ -4,38 +4,16 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
 venv/
-ENV/
-env.bak/
-venv.bak/
+env/
 
-# Environment variables
+# Environment
 .env
 .env.test
-
-# Docker
-.dockerignore
 
 # Databases
 *.db
 *.sqlite3
 
-# macOS system files
+# OS
 .DS_Store
-.AppleDouble
-.LSOverride
-Icon
-
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Testing
-.pytest_cache/
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
