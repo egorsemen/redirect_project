@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.test
+
+# Docker
+.dockerignore
+
+# Databases
+*.db
+*.sqlite3
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
